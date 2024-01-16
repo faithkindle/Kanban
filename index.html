@@ -69,10 +69,10 @@
 			}
 		</style>
 		<!-- End of GitHub Corner -->
-		<div class = "row">
 		<h1 class="main-title">To-Do Kanban</h1>
 		<div class="drag-container">
 			<ul class="drag-list">
+				<div class = "column">
 				<!-- To Be Done Column -->
 				<li class="drag-column to-do-column">
 					<span class="header">
@@ -103,7 +103,7 @@
 					</div>
 				</li>
 		</div>
-		<div class = "row">		
+		<div class = "column">		
 		<!-- Doing Column -->
 				<li class="drag-column doing-column">
 					<span class="header">
@@ -133,6 +133,7 @@
 						<div class="add-item" contenteditable="true"></div>
 					</div>
 				</li>
+				<div class = "column"
 				<!-- Done Column -->
 				<li class="drag-column done-column">
 					<span class="header">
@@ -163,7 +164,8 @@
 					</div>
 				</li>
 		</div>
-				<div class = "row">	
+		</div>
+				<div class = "column">	
 			<!-- On Hold Column -->
 				<li class="drag-column on-hold-column">
 					<span class="header">
@@ -196,6 +198,7 @@
 			</ul>
 		</div>
 		</div>
+	</div>
 		<!-- Script -->
 		<script src="script.js"></script>
 	</body>
