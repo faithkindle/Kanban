@@ -42,7 +42,7 @@ function getSavedColumns() {
 				"Post a technical article",
 			];
 			progressListArray = ["Work on project", "Listen to Spotify"];
-			completeListArray = ["Submit a PR", "Review my projects code"];
+			completeListArray = ["Submit a PR", "Review project code"];
 			onHoldListArray = ["Eat lunch"];
 		} else {
 			backlogListArray = [];
